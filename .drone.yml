@@ -1,0 +1,14 @@
+kind: pipeline
+name: default
+
+steps:
+- name: hexo
+  image: airbornelamb/drone-hexo
+- name: netlify
+  image: airbornelamb/drone-netlify
+  settings:
+    netlify_auth_token:
+      from_secret: netlify_token
+    netlify_site_id: e321baee-e6dd-476e-96fc-21a6a912c289
+    dir: /drone/src/public
+    production: yes
