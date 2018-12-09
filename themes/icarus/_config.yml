@@ -70,28 +70,25 @@ widgets:
     -
         type: profile
         position: left
-        author: Your name
-        author_title: Your title
-        location: Your location
+        author: Josh Lamb
+        author_title:
+        location: Augusta, GA
         avatar: 
         gravatar: 
-        follow_link: 'http://github.com/ppoffice'
+        follow_link: 'http://github.com/airbornelamb'
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'http://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'http://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'http://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'http://dribbble.com'
+                url: 'http://github.com/airbornelamb'
+            #Facebook:
+                #icon: fab fa-facebook
+                #url: 'http://facebook.com'
+            #Twitter:
+                #icon: fab fa-twitter
+                #url: 'http://twitter.com'
             RSS:
                 icon: fas fa-rss
-                url: /
+                url: atom.xml
     -
         type: toc
         position: left
@@ -103,9 +100,6 @@ widgets:
             PPOffice: 'https://github.com/ppoffice'
     -
         type: category
-        position: left
-    -
-        type: tagcloud
         position: left
     -
         type: recent_posts
