@@ -1,11 +1,12 @@
 # Version of the Icarus theme that is currently used
 version: 2.0.0
 # Path or URL to the website's icon
-favicon: /images/favicon.svg
+#favicon: /images/favicon.svg
 # Path or URL to RSS atom.xml
 rss: atom.xml
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
-logo: /images/logo.svg
+logo:
+    text: Talmao
 # Open Graph metadata (https://hexo.io/docs/helpers.html#open-graph)
 open_graph:
     # Facebook App ID
@@ -28,23 +29,23 @@ navbar:
         Tags: /tags
         About: /about
     # Navigation bar links to be shown on the right
-    links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'http://github.com/ppoffice/hexo-theme-icarus'
+    #links:
+    #    Download on GitHub:
+    #        icon: fab fa-github
+    #        url: 'http://github.com/airbornelamb'
 # Footer section link settings
-footer:
-    # Links to be shown on the right of the footer section
-    links:
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: 'https://creativecommons.org/'
-        Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
-            url: 'https://creativecommons.org/licenses/by/4.0/'
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'http://github.com/ppoffice/hexo-theme-icarus'
+#footer:
+#    # Links to be shown on the right of the footer section
+#    links:
+#        Creative Commons:
+#            icon: fab fa-creative-commons
+#            url: 'https://creativecommons.org/'
+#        Attribution 4.0 International:
+#            icon: fab fa-creative-commons-by
+#            url: 'https://creativecommons.org/licenses/by/4.0/'
+#        Download on GitHub:
+#            icon: fab fa-github
+#            url: 'http://github.com/ppoffice/hexo-theme-icarus'
 # Article display settings
 article:
     # Code highlight theme (https://github.com/highlightjs/highlight.js/tree/master/src/styles)
@@ -92,12 +93,12 @@ widgets:
     -
         type: toc
         position: left
-    -
-        type: links
-        position: left
-        links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+        #    -
+        #type: links
+        #position: left
+        #links:
+        #    Hexo: 'https://hexo.io'
+        #    PPOffice: 'https://github.com/ppoffice'
     -
         type: category
         position: left
@@ -119,7 +120,7 @@ plugins:
     # Enable page animations (http://animejs.com/)
     animejs: true
     # Enable the MathJax plugin (http://ppoffice.github.io/hexo-theme-icarus/2018/01/01/plugin/MathJax/)
-    mathjax: true
+    mathjax: false
     # Show the back to top button on mobile devices
     back-to-top: true
     # Google Analytics plugin settings (http://ppoffice.github.io/hexo-theme-icarus/2018/01/01/plugin/Analytics/#Google-Analytics)
