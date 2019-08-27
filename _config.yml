@@ -88,3 +88,7 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+  
+# Plugins
+plugins:
+    google_analytics: UA-146412197-1
