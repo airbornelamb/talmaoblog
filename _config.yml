@@ -90,6 +90,3 @@ deploy:
   type:
   
 # Plugins
-plugins:
-    google-analytics:
-        tracking_id: UA-146412197-1
