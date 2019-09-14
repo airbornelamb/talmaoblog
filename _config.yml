@@ -91,4 +91,5 @@ deploy:
   
 # Plugins
 plugins:
-    google_analytics: UA-146412197-1
+    google-analytics:
+        tracking_id: UA-146412197-1
