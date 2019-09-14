@@ -126,7 +126,7 @@ plugins:
     # Google Analytics plugin settings (http://ppoffice.github.io/hexo-theme-icarus/2018/01/01/plugin/Analytics/#Google-Analytics)
     google-analytics:
         # Google Analytics tracking id
-        tracking_id: 
+        tracking_id: UA-146412197-1
     # Baidu Analytics plugin settings (http://ppoffice.github.io/hexo-theme-icarus/2018/01/01/plugin/Analytics/#Baidu-Analytics)
     baidu-analytics:
         # Baidu Analytics tracking id
